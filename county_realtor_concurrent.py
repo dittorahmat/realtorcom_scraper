@@ -325,9 +325,9 @@ def property_scraper(data):
 
 
 def initialize_database():
-    database_username = 'ditto'
-    database_password = 'SAtu%QZy<+cMX!6e'
-    database_ip       = 'mysql-portal.c4fsickfqw57.us-east-1.rds.amazonaws.com'
+    database_username = 'XXXXXX'
+    database_password = 'XXXXXX'
+    database_ip       = 'mysql-portal.XXXXXX.us-east-1.rds.amazonaws.com'
     database_name     = 'realtors'
     database_connection = sqlalchemy.create_engine('mysql+mysqlconnector://{0}:{1}@{2}/{3}'.
                                                    format(database_username, database_password, 
@@ -336,9 +336,9 @@ def initialize_database():
     print('Initializing database ...\n')
     
 def insert_database(df):
-    database_username = 'ditto'
-    database_password = 'SAtu%QZy<+cMX!6e'
-    database_ip       = 'mysql-portal.c4fsickfqw57.us-east-1.rds.amazonaws.com'
+    database_username = 'XXXXXX'
+    database_password = 'XXXXXX'
+    database_ip       = 'mysql-portal.XXXXXX.us-east-1.rds.amazonaws.com'
     database_name     = 'realtors'
     database_connection = sqlalchemy.create_engine('mysql+mysqlconnector://{0}:{1}@{2}/{3}'.
                                                    format(database_username, database_password, 
